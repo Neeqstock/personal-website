@@ -1,4 +1,54 @@
 baseURL = "https://neeqstock.netlify.com"
 languageCode = "en-us"
 title = "Neeqstock"
-theme = "ananke"
+theme = "terminal"
+paginate = 5
+
+[params]
+  # dir name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # ["orange", "blue", "red", "green", "pink"]
+  themeColor = "orange"
+  # if you set this to 0, only submenu trigger will be visible
+  showMenuItems = 4
+  # show selector to switch language
+  showLanguageSelector = false
+  # set theme to full screen width
+  fullWidthTheme = true
+  # center theme with default width
+  centerTheme = false
+  # set a custom favicon (default is a `themeColor` square)
+  # favicon = "favicon.ico"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Neeqstock"
+    subtitle = "A selected bunch of eukaryotic cells"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Neeqstock"
+      logoHomeLink = "/images/logo.png"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        identifier = "bio"
+        name = "Bio"
+        url = "/bio"
+      [[languages.en.menu.main]]
+        identifier = "publications"
+        name = "Publications"
+        url = "/publications"
+      [[languages.en.menu.main]]
+        identifier = "music"
+        name = "Music"
+        url = "/music"
+      [[languages.en.menu.main]]
+        identifier = "netytar"
+        name = "Netytar"
+        url = "/netytar"
