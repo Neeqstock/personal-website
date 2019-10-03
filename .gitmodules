@@ -4,3 +4,9 @@
 [submodule "themes/terminal"]
 	path = themes/terminal
 	url = https://github.com/panr/hugo-theme-terminal.git
+[submodule "themes/alageek"]
+	path = themes/alageek
+	url = git@github.com:gkmngrgn/hugo-alageek-theme.git
+[submodule "themes/zen"]
+	path = themes/zen
+	url = git@github.com:frjo/hugo-theme-zen.git
